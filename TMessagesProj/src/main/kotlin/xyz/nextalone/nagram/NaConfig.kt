@@ -624,7 +624,7 @@ object NaConfig {
         addConfig(
             "ShowHiddenFeature",
             ConfigItem.configTypeBool,
-            false
+            true
         )
 
     private fun addConfig(
