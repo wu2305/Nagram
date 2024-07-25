@@ -626,6 +626,24 @@ object NaConfig {
             ConfigItem.configTypeBool,
             true
         )
+    val searchHashtagDefaultPageChannel =
+        addConfig(
+            "SearchHashtagDefaultPageChannel",
+            ConfigItem.configTypeInt,
+            0
+        )
+    val searchHashtagDefaultPageChat =
+        addConfig(
+            "SearchHashtagDefaultPageChat",
+            ConfigItem.configTypeInt,
+            0
+        )
+    val openUrlOutBotWebViewRegex =
+        addConfig(
+            "OpenUrlOutBotWebViewRegex",
+            ConfigItem.configTypeString,
+            ""
+        )
 
     private fun addConfig(
         k: String,
